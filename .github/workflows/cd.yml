@@ -32,6 +32,6 @@ jobs:
           version: 'latest'
 
       - name: Deploy to Kubernetes
-        run: |
-          kubectl apply -f infra/kubernetes/deployment.yaml
-          kubectl apply -f infra/kubernetes/service.yaml
+   #     run: |
+   #       kubectl apply -f infra/kubernetes/deployment.yaml
+   #       kubectl apply -f infra/kubernetes/service.yaml

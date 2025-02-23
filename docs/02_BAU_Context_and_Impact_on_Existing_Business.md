@@ -9,14 +9,13 @@
   - **Limited Predictive Capabilities:** Reactive maintenance and resource allocation due to a lack of advanced analytics.
 
 ## Potential Impact of the New Platform
-- **Enhanced Efficiency:**  
-  Real-time, adaptive routing and predictive scheduling will reduce travel times and fuel usage.
-- **Operational Cost Savings:**  
-  Data-driven refueling policies and optimized asset utilization can yield a 10–15% reduction in operational costs.
-- **Improved Decision-Making:**  
-  A unified BI system will provide leadership with comprehensive insights, leading to better strategic planning.
-- **Competitive Advantage:**  
-  Transitioning to an integrated, high-tech platform will position the organization as a leader in fleet optimization.
+
+| **Impact Area**             | **Description**                                                                                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Enhanced Efficiency         | Real-time, adaptive routing and predictive scheduling will reduce travel times and fuel usage.                                      |
+| Operational Cost Savings    | Data-driven refueling policies and optimized asset utilization can yield a 10–15% reduction in operational costs.                    |
+| Improved Decision-Making    | A unified BI system will provide leadership with comprehensive insights, leading to better strategic planning.                       |
+| Competitive Advantage       | Transitioning to an integrated, high-tech platform will position the organization as a leader in fleet optimization.                |
 
 ## Impact Assessment
 - **Short-Term:**  

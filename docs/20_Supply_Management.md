@@ -1,4 +1,4 @@
-# Supply Management and Driver Economics Beyond Incentives
+# Supply Management and Driver Economics
 
 Strategies to optimize driver compensation, fleet supply, and incentive programs to maximize operational efficiency and reduce costs.
 

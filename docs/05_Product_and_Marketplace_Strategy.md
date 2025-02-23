@@ -1,4 +1,4 @@
-# Product and Marketplace Strategy
+# Product Strategy
 
 ## Product Strategy
 - **Unified Platform Approach:**  
@@ -18,7 +18,7 @@
 - **User-Centric Design:**  
   Intuitive interfaces and personalized dashboards ensure ease-of-use for all user roles.
 
-## Marketplace Strategy
+## Market Strategy
 - **Target Market:**  
   Large organizations with complex fleet operations looking for operational excellence and cost reduction.
 - **Go-to-Market Approach:**  

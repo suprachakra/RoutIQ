@@ -7,11 +7,37 @@ Our vision is to revolutionize fleet operations through a unified, data-driven p
 We are committed to developing an industry-leading fleet optimization platform that seamlessly integrates real-time tracking, predictive analytics, and automated process excellence. Our mission is to drive sustainable cost reductions and operational efficiency across all organizational levels.
 
 ## Strategic Imperatives
-- **Innovation & Efficiency:** Utilize state-of-the-art IoT, ML, and reinforcement learning (RL) techniques to optimize routing, predictive maintenance, and dynamic scheduling.
-- **Cost Reduction:** Implement data-driven refueling policies, reduce fuel wastage, and enhance fleet utilization to cut operational costs.
-- **Operational Transformation:** Build a unified tracking system and robust data management pipeline to enable proactive decision-making and continuous process improvement.
-- **Data-Driven Decision Making:** Develop comprehensive BI dashboards and real-time reporting tools to empower leadership with actionable insights.
-- **Scalable & Resilient Architecture:** Design a cloud-native, microservices-based system that scales horizontally, maintains high availability, and meets strict security and compliance standards.
+
+```mermaid
+graph TD
+    SI[Strategic Imperatives]
+    IE[Innovation & Efficiency]
+    CR[Cost Reduction]
+    OT[Operational Transformation]
+    DD[Data-Driven Decision Making]
+    SA[Scalable & Resilient Architecture]
+    
+    SI --> IE
+    SI --> CR
+    SI --> OT
+    SI --> DD
+    SI --> SA
+    
+    IE --> A[Utilize state-of-the-art IoT, ML, and RL techniques<br>to optimize routing, predictive maintenance, and dynamic scheduling]
+    CR --> B[Implement data-driven refueling policies,<br>reduce fuel wastage, and enhance fleet utilization]
+    OT --> C[Build a unified tracking system and robust<br>data management pipeline for proactive decision-making]
+    DD --> D[Develop comprehensive BI dashboards and<br>real-time reporting tools to empower leadership]
+    SA --> E[Design a cloud-native, microservices-based system<br>that scales horizontally, maintains high availability,<br>and meets strict security & compliance standards]
+```
+
+| **Imperative**                      | **Description**                                                                                                                                       |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Innovation & Efficiency             | Utilize state-of-the-art IoT, ML, and reinforcement learning (RL) techniques to optimize routing, predictive maintenance, and dynamic scheduling.   |
+| Cost Reduction                      | Implement data-driven refueling policies, reduce fuel wastage, and enhance fleet utilization to cut operational costs.                                |
+| Operational Transformation          | Build a unified tracking system and robust data management pipeline to enable proactive decision-making and continuous process improvement.         |
+| Data-Driven Decision Making         | Develop comprehensive BI dashboards and real-time reporting tools to empower leadership with actionable insights.                                     |
+| Scalable & Resilient Architecture   | Design a cloud-native, microservices-based system that scales horizontally, maintains high availability, and meets strict security and compliance standards. |
+
 
 ## Long-Term Objectives
 - Achieve a 10–15% reduction in fuel and operational costs within the first year.

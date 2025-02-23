@@ -14,14 +14,14 @@
   - Challenges in integrating data from multiple sources into actionable insights.
 
 ## User Personas
-- **Fleet Manager:**  
-  Needs intuitive tools for real-time tracking, dynamic routing, and predictive maintenance.
-- **Operations Executive:**  
-  Focuses on overall efficiency, cost reduction, and streamlined processes.
-- **Maintenance Supervisor:**  
-  Requires timely insights for predictive maintenance to reduce downtime.
-- **Senior Leadership:**  
-  Demands aggregated KPIs, strategic dashboards, and data-driven insights for decision-making.
+
+| **User Persona**         | **Needs/Focus**                                                                                                  |
+|--------------------------|------------------------------------------------------------------------------------------------------------------|
+| Fleet Manager            | Needs intuitive tools for real-time tracking, dynamic routing, and predictive maintenance.                        |
+| Operations Executive     | Focuses on overall efficiency, cost reduction, and streamlined processes.                                        |
+| Maintenance Supervisor   | Requires timely insights for predictive maintenance to reduce downtime.                                          |
+| Senior Leadership        | Demands aggregated KPIs, strategic dashboards, and data-driven insights for decision-making.                        |
+
 
 ## Competitive Analysis
 - **Our Advantages:**  

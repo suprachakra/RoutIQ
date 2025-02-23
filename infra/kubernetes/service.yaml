@@ -1,0 +1,17 @@
+# Kubernetes Service definition to expose fleet optimization microservices.
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: fleet-optimization-service
+  labels:
+    app: fleet-optimization
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 8000
+      protocol: TCP
+      name: http
+  selector:
+    app: fleet-optimization

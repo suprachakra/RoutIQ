@@ -1,0 +1,45 @@
+# Kubernetes deployment manifest for the fleet optimization microservices.
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fleet-optimization-deployment
+  labels:
+    app: fleet-optimization
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: fleet-optimization
+  template:
+    metadata:
+      labels:
+        app: fleet-optimization
+    spec:
+      containers:
+        - name: fleet-optimization-container
+          image: your-docker-registry/fleet-optimization:latest
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: fleet-optimization-config
+          resources:
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 5

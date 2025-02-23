@@ -1,0 +1,52 @@
+# Local multi-container orchestration for development and testing.
+
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile
+    container_name: fleet_optimization_app
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+    volumes:
+      - .:/app
+    depends_on:
+      - kafka
+      - db
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: kafka
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+    ports:
+      - "9092:9092"
+
+  zookeeper
+    image: confluentinc/cp-zookeeper:latest
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  db:
+    image: postgres:13
+    container_name: fleet_db
+    environment:
+      POSTGRES_USER: fleetuser
+      POSTGRES_PASSWORD: securepassword
+      POSTGRES_DB: fleetdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

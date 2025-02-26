@@ -1,4 +1,4 @@
-# Detailed Requirements: Functional and Non-Functional Requirements
+# Functional and Non-Functional Requirements
 
 ## Functional Requirements (FRs)
 

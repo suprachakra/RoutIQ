@@ -56,6 +56,9 @@ route-optimization-platform/
     locust -f tests/performance/stress_test.py
     ```
 
+### Use-Case Comparison
+Find the detailed [table](https://github.com/suprachakra/RoutIQ/blob/main/docs/UseCases/UC_Comparison.md#use-case-adaptability-and-customization-for-route-optimization) comparing various verticals for route optimization with each row emphasizes key differences, customizations, technical considerations, business impact, and risks.
+
 ```mermaid
 ---
 config:
